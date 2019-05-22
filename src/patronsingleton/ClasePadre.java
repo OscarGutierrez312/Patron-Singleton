@@ -12,7 +12,7 @@ package patronsingleton;
  */
 public class ClasePadre {
     
-    private static ClasePadre miInstancia=null;
+    private static volatile ClasePadre miInstancia=null;
     
     protected String mensaje;
     
